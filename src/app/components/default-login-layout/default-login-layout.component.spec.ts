@@ -11,7 +11,7 @@ describe('DefaultLoginLayoutComponent', () => {
       imports: [DefaultLoginLayoutComponent]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(DefaultLoginLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
